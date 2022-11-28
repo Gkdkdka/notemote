@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+body { 
+    font-family: 'Poor Story', cursive;
+    background-color: rgb(255, 255, 239);
+}
+
+header {
+    text-align: center;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(35, 84, 245);
+}
+
+#profile {
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.profile {
+    width: 400px;
+    height: 400px;
+    border: 3px solid gray;
+    border-radius: 8px;
+}
+
+.memo {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu {
+    padding-bottom: 20px;
+}
+
+#icon {
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+}
+
+#eraser {
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+}
+
+#palette {
+    padding-bottom: 20px;
+    display: none;
+}
+
+.palette {
+    padding-bottom: 20px;
+    display: inline-block;
+    
+}
+
+.palette .color {
+    display: flex;
+}
+
+.color .color {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.068);
+}
+
+#range {
+    margin-bottom: 15px;
+    display: none;
+}
+
+.canvas {
+    width: 1000px;
+    height: 700px;
+    background-color: white;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+
+.line {
+    width: 1000px;
+    height: 700px;
+    background-color: white;
+    border-radius: 15px;
+    border: 5px solid black;
+    background:url('images/line.jpg');
+}
+
+.btn {
+    margin-top: 20px;
+    align-items: center;
+}
+
+.btn button {
+    font-family: 'Poor Story', cursive;
+    cursor: pointer;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid gray;
+    font-size: 20px;
+}
+
+.btn button:active {
+    transform: scale(0.98);
+}

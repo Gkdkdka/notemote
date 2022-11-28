@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>| None |</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header>
+        <a href="main.html"><img src="images/logo.jpg" ></a>
+        <hr>
+    </header>
+    <div class = "memo">
+        <div class = "menu">
+            <a href = "javacript:void(0);" onclick="handleCanvasLimit();"><img src="images/click.png" class = "icon"></a>
+            <a href = "javacript:void(0);" onclick=";"><img src="images/circle.png" class = "icon"></a>
+            <a href = "javacript:void(0);" onclick=";"><img src="images/triangle.png" id = "triangle" class = "icon"></a>
+            <a href = "javacript:void(0);" onclick=";"><img src="images/square.png" class = "icon"></a>
+            <a href = "javacript:void(0);" onclick="doDisplay1();"><img src="images/palette.png" class = "icon"></a>
+            <a href = "javacript:void(0);" onclick="doDisplay2();"><img src="images/thick.png" class = "icon"></a>
+            <a href = "javacript:void(0);" onclick="handleDelete();"><img src="images/bigeraser.png" class = "icon"></a>
+            <a href = "javacript:void(0);" onclick=";"><img src="images/text.png" class = "icon"></a>
+            <a href = "javacript:void(0);" onclick=";"><img src="images/textsize.png" class = "icon"></a>
+        </div>
+        <div id = "palette" class = "palette">
+            <div id = "color" class = "color">
+                <div class = "color jsColor" style = "background-color: black;"></div>
+                <div class = "color jsColor" style = "background-color: white;"></div>
+                <div class = "color jsColor" style = "background-color: red;"></div>
+                <div class = "color jsColor" style = "background-color: orange;"></div>
+                <div class = "color jsColor" style = "background-color: yellow;"></div>
+                <div class = "color jsColor" style = "background-color: green;"></div>
+                <div class = "color jsColor" style = "background-color: blue;"></div>
+                <div class = "color jsColor" style = "background-color: navy;"></div>
+                <div class = "color jsColor" style = "background-color: purple;"></div>
+            </div>
+        </div>
+        <div>
+            <input type = "range" id = "range" min = "0.1" max = "5.0" value = "2.5" step = "0.1" />
+        </div>
+        <div>
+            <canvas id = "canvas" class = "canvas"></canvas>
+        </div>
+        <div class = "btn">
+            <button id = "mode">Fill</button>
+            <button id = "down">Download</button>
+        </div>
+    </div>
+    <script src = "draw.js"></script>
+</body>
+</html>
